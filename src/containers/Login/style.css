@@ -1,0 +1,14 @@
+#formContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    /* max-width: 100px; */
+    /* background-color: red; */
+    /* justify-content: center; */
+}
+
+.loginButton{
+    width: 100px;
+    /* margin: 20px !important; */
+    margin: 20px auto 0 auto!important;
+}

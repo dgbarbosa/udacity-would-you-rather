@@ -1,0 +1,14 @@
+.questionResume-container {
+    padding: 0px 20px;
+}
+
+.resume {
+    width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.title {
+    margin: 0;
+}

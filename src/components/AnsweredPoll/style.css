@@ -1,0 +1,38 @@
+h2,p {
+    margin: 0px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.question {
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 3px;
+    position: relative;
+}
+
+.question.answered {
+    background-color: lightgreen;
+}
+
+.question.answered::after{
+    content: 'Your Vote';
+    position: absolute;
+    top: -25px;
+    right: -20px;
+    text-align: center;
+    background-color: lightyellow;
+    font-size: 12px;
+    border-radius: 100%;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid black;
+}

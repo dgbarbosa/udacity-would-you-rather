@@ -1,0 +1,37 @@
+p,h2 {
+    margin: 0px;
+}
+
+.leaderboard-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.questions-score-container {
+    margin-top: 10px;
+}
+.questions-score-container .question-score {
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions-score-container .question-score .score {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.score-container p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.score-container {
+    background-color: lightblue;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}

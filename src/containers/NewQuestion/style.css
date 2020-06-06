@@ -1,0 +1,12 @@
+.newQuestion-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    margin: 10px 0px!important;
+}
+
+.newQuestion-btn-submit{
+    margin-top: 20px!important;
+}
